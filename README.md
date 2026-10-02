@@ -37,10 +37,4 @@ One specific thing I learned from directing an AI coding agent is that giving a 
 - [x] Favicon
 - [x] README project description and reflection
 
-## Before submission
 
-1. Replace the deployment placeholder above with the actual public GitHub Pages URL.
-2. Add real professional contact links if your instructor expects email, LinkedIn, or GitHub links.
-3. Commit the work at least 5 times across at least 3 different calendar days with descriptive messages.
-4. Push the repository to GitHub and enable GitHub Pages.
-5. Test every navigation link on the live site at desktop and phone widths.
