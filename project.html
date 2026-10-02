@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Featured data-mining project by Chidiuto Nwokorie using K-nearest neighbors in Altair AI Studio.">
+  <meta name="author" content="Chidiuto Nwokorie">
+  <title>Project | Boston Housing KNN | Chidiuto Nwokorie</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.4.3/dist/css/foundation.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <nav class="top-bar site-nav" aria-label="Primary navigation">
+      <div class="top-bar-left"><a class="site-logo" href="index.html" aria-label="Chidiuto Nwokorie home">CN<span>.</span></a></div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="index.html#profile">Profile</a></li>
+          <li><a class="nav-link" href="index.html#skills">Skills</a></li>
+          <li><a class="nav-link" href="index.html#experience">Experience</a></li>
+          <li><a class="nav-link" href="index.html#contact">Contact</a></li>
+          <li><a class="nav-link nav-button" href="resume.html">Resume</a></li>
+          <li><a class="nav-link nav-button secondary active" aria-current="page" href="project.html">Project</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero project-hero">
+      <div class="grid-container">
+        <p class="eyebrow">FEATURED PROJECT / DATA MINING &amp; AI</p>
+        <h1>Boston Housing<br><span>KNN Prediction</span></h1>
+        <p class="page-lead">
+          Using Altair AI Studio to apply K-nearest neighbors to a housing-price
+          prediction problem.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell large-4">
+            <p class="section-number">PROJECT OVERVIEW</p>
+            <h2>From housing data to a prediction.</h2>
+          </div>
+          <div class="cell large-7 large-offset-1">
+            <p class="section-intro">
+              The project uses the BostonHousing dataset to predict <strong>MEDV</strong>,
+              the median value of owner-occupied homes. The assignment required using
+              the first 12 columns as predictors and excluding the derived CAT.MEDV field.
+            </p>
+            <p>
+              I built the workflow in Altair AI Studio, used K-nearest neighbors as the
+              modeling approach, applied the trained model to an example set, and
+              evaluated model performance using root mean squared error (RMSE).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" aria-labelledby="process-title">
+      <div class="grid-container">
+        <div class="section-heading">
+          <p class="section-number">01 / PROCESS</p>
+          <h2 id="process-title">A repeatable modeling workflow.</h2>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-step">
+            <span>01</span>
+            <h3>Prepare</h3>
+            <p>Load the BostonHousing data and identify MEDV as the target while excluding CAT.MEDV.</p>
+          </article>
+          <article class="process-step">
+            <span>02</span>
+            <h3>Train</h3>
+            <p>Configure a K-nearest-neighbors model and select the K value used for prediction.</p>
+          </article>
+          <article class="process-step">
+            <span>03</span>
+            <h3>Apply</h3>
+            <p>Use the trained model with an example set containing the predictor values for a tract.</p>
+          </article>
+          <article class="process-step">
+            <span>04</span>
+            <h3>Evaluate</h3>
+            <p>Review model performance with RMSE and use the workflow to produce the requested prediction.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" aria-labelledby="technical-title">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell large-5">
+            <p class="section-number">02 / TECHNICAL DETAILS</p>
+            <h2 id="technical-title">What the project demonstrates.</h2>
+          </div>
+          <div class="cell large-6 large-offset-1">
+            <div class="detail-list">
+              <div class="detail-row">
+                <strong>Tool</strong>
+                <span>Altair AI Studio</span>
+              </div>
+              <div class="detail-row">
+                <strong>Algorithm</strong>
+                <span>K-nearest neighbors (KNN)</span>
+              </div>
+              <div class="detail-row">
+                <strong>Target</strong>
+                <span>MEDV — median home value</span>
+              </div>
+              <div class="detail-row">
+                <strong>Predictors</strong>
+                <span>First 12 data columns from the assignment</span>
+              </div>
+              <div class="detail-row">
+                <strong>Evaluation</strong>
+                <span>Root mean squared error (RMSE)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section project-learning" aria-labelledby="learning-title">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x align-middle">
+          <div class="cell large-7">
+            <p class="section-number">03 / WHAT I LEARNED</p>
+            <h2 id="learning-title">The workflow matters as much as the model.</h2>
+            <p>
+              This project reinforced that a prediction is not just the final number.
+              The data must be prepared correctly, the target and predictors must be
+              identified correctly, the model must be configured, and the result must
+              be evaluated. Building the process visually in AI Studio made each step
+              easier to inspect and troubleshoot.
+            </p>
+          </div>
+          <div class="cell large-4 large-offset-1">
+            <div class="learning-card">
+              <span class="learning-mark">K</span>
+              <strong>Key takeaway</strong>
+              <p>Good data preparation and a clear modeling workflow make technical results easier to understand and reproduce.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-cta">
+      <div class="grid-container text-center">
+        <p class="section-number">EXPLORE MORE</p>
+        <h2>See the experience behind the project.</h2>
+        <a class="button primary-button" href="resume.html">View resume</a>
+        <a class="button hollow-button light-outline" href="index.html">Back to home</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="grid-container">
+      <div class="grid-x align-middle">
+        <div class="cell medium-7">
+          <p class="footer-name">Chidiuto Nwokorie</p>
+          <p class="footer-copy">Information Systems &amp; Decision Sciences • LSU</p>
+        </div>
+        <div class="cell medium-5 medium-text-right">
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resume</a>
+          <a href="project.html">Project</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
